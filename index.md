@@ -24,7 +24,7 @@ layout: default
     <br>
     <strong>Benjamin Wood</strong>
     <p>A photo would be good</p>
-    <p>Some blurb about Ben</p>
+    <p>Ben is an Electrical and Computer Engineering student in his first year pursuing an MS. His area of focus is embedded systems, and is currently researching embedded medical applications. Prior experience relevant to this project includes embedded real-time programming, neural networks, and IoT. </p>
 </div>
 <div id="Progress" class="section">
     <h1>Progress</h1>
