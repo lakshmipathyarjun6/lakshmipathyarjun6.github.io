@@ -14,6 +14,15 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- <link rel="stylesheet" type="text/css" href="base.css"> -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <style>
+        .showbib {
+            display: block;
+        }
+        .hidebib {
+            display: none;
+        }
+    </style>
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -94,12 +103,35 @@
                     <td style="padding: 5px; vertical-align: top; background-color: #ffffff">
                         <b>Contact Edit: Artist Tools for Intuitive Modeling of Hand-Object Interactions</b>
                         <br> <strong>A. S. Lakshmipathy</strong>, <a href="https://nzfeng.github.io/">N. Feng</a>, <a href="https://www.yuxilee.com/">Y. X. Lee</a>, <a href="https://www.momahler.com/">M. Mahler</a>, <a href="http://graphics.cs.cmu.edu/nsp/index.html">N.S. Pollard</a>
-                        <br> <em> ACM Transactions on Graphics (SIGGRAPH), Los Angeles, USA 2023 </em> <br>
+                        <br> <em> ACM Transactions on Graphics (To Be Presented at SIGGRAPH), Los Angeles, USA 2023 </em> <br>
                         <br>
                         <a class="link link_pdf" href="pdfs/SIGGRAPH2023ContactEdit.pdf" target="_blank"> [PDF] </a>
                         <a class="link link_pdf" href="https://arxiv.org/abs/2305.02051" target="_blank"> [arXiv] </a>
                         <a class="link link_pdf" href="https://www.youtube.com/watch?v=Qnpmfa0iBGI" target="_blank"> [Video] </a>
+                        <a class="link bibselect" bibdiv="contacteditbib" href="javascript:void(0)"> [BibTex] </a>
                         <br>
+                        <br>
+                        <div id="contacteditbib" style="display: none">
+                            <p>
+                                @article{lakshmipathy2023contactedit,
+                                <br>
+                                author = {Lakshmipathy, A. S. and Feng, N. and Lee, Y. X. and Mahler, M. and Pollard, N. S.},
+                                <br>
+                                title = {Contact Edit: Artist Tools for Intuitive Modeling of Hand-Object Interactions},
+                                <br>
+                                journal = {ACM Transactions on Graphics},
+                                <br>
+                                volume = {42},
+                                <br>
+                                number = {4},
+                                <br>
+                                month = {aug},
+                                <br>
+                                year = {2023},
+                                <br>
+                                publisher = {Association for Computing Machinery}}
+                            </p>
+                        </div>
                     </td>
                 </tr>
                 <tr class="separator" />
@@ -114,10 +146,30 @@
                         <br> <em> IEEE International Conference on Robotics and Automation (ICRA), Philadelphia, USA 2022 </em> <br>
                         <br>
                         <a class="link link_pdf" href="pdfs/ICRA2022ContactTransfer.pdf" target="_blank"> [PDF] </a>
+                        <a class="link link_pdf" href="https://ieeexplore.ieee.org/document/9811739" target="_blank"> [Publication] </a>
                         <a class="link link_pdf" href="https://arxiv.org/abs/2110.15532" target="_blank"> [arXiv] </a>
                         <a class="link link_pdf" href="https://www.youtube.com/watch?v=A7tJ4c5fa_4" target="_blank"> [Video] </a>
                         <a class="link link_pdf" href="https://www.youtube.com/watch?v=AItW2q91XYo" target="_blank"> [Talk] </a>
+                        <a class="link bibselect" bibdiv="contacttransferbib" href="javascript:void(0)"> [BibTex] </a>
                         <br>
+                        <br>
+                        <div id="contacttransferbib" style="display: none">
+                            <p>
+                                @INPROCEEDINGS{laskhmipathy2022contacttransfer,
+                                <br>
+                                author={Lakshmipathy, A. and Bauer, D. and Bauer, C. and Pollard, N. S.},
+                                <br>
+                                booktitle={2022 International Conference on Robotics and Automation (ICRA)},
+                                <br>
+                                title={Contact Transfer: A Direct, User-Driven Method for Human to Robot Transfer of Grasps and Manipulations},
+                                <br>
+                                year={2022},
+                                <br>
+                                pages={6195-6201},
+                                <br>
+                                doi={10.1109/ICRA46639.2022.9811739}}
+                            </p>
+                        </div>
                     </td>
                 </tr>
                 <tr class="separator" />
@@ -135,7 +187,26 @@
                         <a class="link link_pdf" href="https://ieeexplore.ieee.org/document/9762122" target="_blank"> [Publication] </a>
                         <a class="link link_pdf" href="https://arxiv.org/abs/2111.01869" target="_blank"> [arXiv] </a>
                         <a class="link link_pdf" href="https://www.youtube.com/watch?v=Zor9B0lggC8" target="_blank"> [Video] </a>
+                        <a class="link bibselect" bibdiv="lowcostprototypingbib" href="javascript:void(0)"> [BibTex] </a>
                         <br>
+                        <br>
+                        <div id="lowcostprototypingbib" style="display: none">
+                            <p>
+                                @INPROCEEDINGS{bauer2022prototyping,
+                                <br>
+                                author={Bauer, D. and Bauer, C. and Lakshmipathy, A. and Shu, R. and Pollard, N. S.},
+                                <br>
+                                booktitle={2022 IEEE 5th International Conference on Soft Robotics (RoboSoft)},
+                                <br>
+                                title={Towards Very Low-Cost Iterative Prototyping for Fully Printable Dexterous Soft Robotic Hands},
+                                <br>
+                                year={2022},
+                                <br>
+                                pages={490-497},
+                                <br>
+                                doi={10.1109/RoboSoft54090.2022.9762122}}
+                            </p>
+                        </div>
                     </td>
                 </tr>
                 <tr class="separator" />
@@ -150,7 +221,22 @@
                         <br> <em> AAAI Conference on Artificial Intelligence - AI for Agriculture and Food Systems Workshop (AAAI AIFS), Vancouver, Canada 2022 </em> <br>
                         <br>
                         <a class="link link_pdf" href="pdfs/AAAI22Workshop.pdf" target="_blank"> [PDF] </a>
+                        <a class="link bibselect" bibdiv="agriculturebib" href="javascript:void(0)"> [BibTex] </a>
                         <br>
+                        <br>
+                        <div id="agriculturebib" style="display: none">
+                            <p>
+                                @inproceedings{bauer2022fully,
+                                <br>
+                                title={Fully Printable Low-Cost Dexterous Soft Robotic Manipulators for Agriculture},
+                                <br>
+                                author={Bauer, D. and Bauer, C. and Lakshmipathy, A. and Pollard, N.},
+                                <br>
+                                booktitle={AI for Agriculture and Food Systems},
+                                <br>
+                                year={2022}}
+                            </p>
+                        </div>
                     </td>
                 </tr>
                 <tr class="separator" />
@@ -168,7 +254,26 @@
                         <a class="link link_pdf" href="https://ieeexplore.ieee.org/document/9636313" target="_blank"> [Publication] </a>
                         <a class="link link_pdf" href="https://www.youtube.com/watch?v=2v3JNY-tocg" target="_blank"> [Video] </a>
                         <a class="link link_pdf" href="https://www.youtube.com/watch?v=fVLRGzHQkN0&" target="_blank"> [Talk] </a>
+                        <a class="link bibselect" bibdiv="contacttracingbib" href="javascript:void(0)"> [BibTex] </a>
                         <br>
+                        <br>
+                        <div id="contacttracingbib" style="display: none">
+                            <p>
+                                @INPROCEEDINGS{lakshmipathy2021contacttracing,
+                                <br>
+                                author={Lakshmipathy, A. and Bauer, D. and Pollard, N. S.},
+                                <br>
+                                booktitle={2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+                                <br> 
+                                title={Contact Tracing: A Low Cost Reconstruction Framework for Surface Contact Interpolation},
+                                <br>
+                                year={2021},
+                                <br>
+                                pages={5165-5172},
+                                <br>
+                                doi={10.1109/IROS51168.2021.9636313}}
+                            </p>
+                        </div>
                     </td>
                 </tr>
                 <tr class="separator" />
@@ -184,7 +289,26 @@
                         <br>
                         <a class="link link_pdf" href="pdfs/icpr20.pdf" target="_blank"> [PDF] </a>
                         <a class="link link_pdf" href="https://ieeexplore.ieee.org/document/9412771" target="_blank"> [Publication] </a>
+                        <a class="link bibselect" bibdiv="linetbib" href="javascript:void(0)"> [BibTex] </a>
                         <br>
+                        <br>
+                        <div id="linetbib" style="display: none">
+                            <p>
+                                @INPROCEEDINGS{nakada2021linet,
+                                <br>
+                                author={Nakada, M. and Chen, H. and Lakshmipathy, A. and Terzopoulos, D.},
+                                <br>
+                                booktitle={2020 25th International Conference on Pattern Recognition (ICPR)},
+                                <br> 
+                                title={Locally-Connected, Irregular Deep Neural Networks for Biomimetic Active Vision in a Simulated Human}, 
+                                <br>
+                                year={2021},
+                                <br>
+                                pages={4465-4472},
+                                <br>
+                                doi={10.1109/ICPR48806.2021.9412771}}
+                            </p>
+                        </div>
                     </td>
                 </tr>
                 <tr class="separator" />
@@ -200,7 +324,30 @@
                         <br>
                         <a class="link link_pdf" href="pdfs/ral20.pdf" target="_blank"> [PDF] </a>
                         <a class="link link_pdf" href="https://ieeexplore.ieee.org/document/8989825" target="_blank"> [Publication] </a>
+                        <a class="link bibselect" bibdiv="humanoidbib" href="javascript:void(0)"> [BibTex] </a>
                         <br>
+                        <br>
+                        <div id="humanoidbib" style="display: none">
+                            <p>
+                                @ARTICLE{nakada2020humanoid,
+                                <br>
+                                author={Nakada, M. and Zhou, T. and Chen, H. and Lakshmipathy, A. and Terzopoulos, D.},
+                                <br>
+                                journal={IEEE Robotics and Automation Letters},
+                                <br>
+                                title={Deep Learning of Neuromuscular and Visuomotor Control of a Biomimetic Simulated Humanoid},
+                                <br>
+                                year={2020},
+                                <br>
+                                volume={5},
+                                <br>
+                                number={3},
+                                <br>
+                                pages={3952-3959},
+                                <br>
+                                doi={10.1109/LRA.2020.2972829}}
+                            </p>
+                        </div>
                     </td>
                 </tr>
                 <tr class="separator" />
@@ -212,12 +359,45 @@
                     <td style="padding: 5px; vertical-align: top; background-color: #ffffff">
                         <b>Biomimetic Eye Modeling & Deep Neuromuscular Oculomotor Control</b>
                         <br> <a href="https://masakinakada.com/" target="_blank">M. Nakada</a><sup>*</sup>, <strong>A. Lakshmipathy<sup>*</sup></strong>,  <a href="https://web.stanford.edu/~honglinc/" target="_blank">H. Chen</a>, X. Ling, <a href="https://taozhou.wixsite.com/taozhou" target="_blank">T. Zhou</a>, <a href="http://web.cs.ucla.edu/~dt/" target="_blank">D. Terzopoulos</a>
-                        <br> <em> ACM Transactions on Graphics (SIGGRAPH Asia), Brisbane, Australia 2019 </em> <br>
+                        <br> <em> ACM Transactions on Graphics (Presented at SIGGRAPH Asia), Brisbane, Australia 2019 </em> <br>
                         <br>
                         <a class="link link_pdf" href="pdfs/siggraph19_eye.pdf" target="_blank"> [PDF] </a>
                         <a class="link link_pdf" href="https://dl.acm.org/doi/10.1145/3355089.3356558" target="_blank"> [Publication] </a>
                         <a class="link link_pdf" href="https://youtu.be/ymV0ONcFVtE" target="_blank"> [Video] </a>
+                        <a class="link bibselect" bibdiv="eyebib" href="javascript:void(0)"> [BibTex] </a>
                         <br>
+                        <br>
+                        <div id="eyebib" style="display: none">
+                            <p>
+                                @article{nakada2019eye,
+                                <br>
+                                author = {Nakada, M. and Lakshmipathy, A. and Chen, H. and Ling, X. and Zhou, T. and Terzopoulos, D.},
+                                <br>
+                                title = {Biomimetic Eye Modeling & Deep Neuromuscular Oculomotor Control},
+                                <br>
+                                year = {2019},
+                                <br>
+                                issue_date = {December 2019},
+                                <br>
+                                publisher = {Association for Computing Machinery},
+                                <br>
+                                volume = {38},
+                                <br>
+                                number = {6},
+                                <br>
+                                issn = {0730-0301},
+                                <br>
+                                url = {https://doi.org/10.1145/3355089.3356558},
+                                <br>
+                                doi = {10.1145/3355089.3356558},
+                                <br>
+                                journal = {ACM Transactions on Graphics},
+                                <br>
+                                month = {nov},
+                                <br>
+                                articleno = {221}}
+                            </p>
+                        </div>
                     </td>
                 </tr>
                 <tr class="separator" />
@@ -233,7 +413,22 @@
                         <br>
                         <a class="link link_pdf" href="pdfs/lakshmipathy-ms-thesis.pdf" target="_blank"> [PDF] </a>
                         <a class="link link_pdf" href="https://escholarship.org/uc/item/4770b06c" target="_blank"> [Publication] </a>
+                        <a class="link bibselect" bibdiv="msthesisbib" href="javascript:void(0)"> [BibTex] </a>
                         <br>
+                        <br>
+                        <div id="msthesisbib" style="display: none">
+                            <p>
+                                @book{lakshmipathy2018biomimetic,
+                                <br>
+                                title={Biomimetic Modeling of the Eye and Deep Neuromuscular Oculomotor Control},
+                                <br>
+                                author={Lakshmipathy, A. S.},
+                                <br>
+                                year={2018},
+                                <br>
+                                publisher={University of California, Los Angeles}}
+                            </p>
+                        </div>
                     </td>
                 </tr>
 
@@ -248,6 +443,27 @@
         <div>Last Updated: 06/10/2023</div>
 
     </div>
+
+    <script>
+        $( ".bibselect" ).on( "click", function() {
+            console.log("clicked");
+            var bibdivId = $(this).attr("bibdiv");
+            var selectId = "#" + bibdivId;
+
+            if($(selectId).is(':visible'))
+            {
+                $( selectId ).toggle(function() {
+                    $(this).css("display", "none");
+                });
+            }
+            else
+            {
+                $( selectId ).toggle(function() {
+                    $(this).css("display", "block");
+                });  
+            }   
+        });
+    </script>
 </body>
 
 </html>
