@@ -22,6 +22,21 @@
         .hidebib {
             display: none;
         }
+        .paperimage {
+            width: 240px;
+            height: 172px;
+        }
+        .pubentry-img {
+            width: 150px;
+            padding: 5px 5px 0px 0px;
+            vertical-align: top;
+            text-align: center;
+        }
+        .pubentry-text {
+            padding: 5px;
+            vertical-align: top;
+            background-color: #ffffff
+        }
     </style>
     <script>
         (function(i, s, o, g, r, a, m) {
@@ -96,10 +111,45 @@
             <table style="width: 100%;">
 
                 <tr>
-                    <td style="width: 150px; padding: 5px 5px 0px 0px; vertical-align: top; text-align: center;">
-                        <img src="images/KinematicMotionRetargetingTOG25.jpg" class="border border-dark" width="240" height="172" /></a>
+                    <td class="pubentry-img">
+                        <img src="images/PICOCVPR25.png" class="border border-dark paperimage"/>
                     </td>
-                    <td style="padding: 5px; vertical-align: top; background-color: #ffffff">
+                    <td class="pubentry-text">
+                        <b>PICO: Reconstructing 3D People In Contact with Objects</b>
+                        <br> <a href="https://www.linkedin.com/in/alp%C3%A1r-cseke-b8784a179/" target="_blank">A. Cseke</a>, <a href="https://sha2nkt.github.io/">S. Tripathi</a>, <a href="https://saidwivedi.in/">S. K. Dwivedi</a>, <strong>A.S. Lakshmipathy</strong>, <a href="https://ac5113.github.io/">A. Chatterjee</a>, <a href="https://is.mpg.de/ps/person/black">M. J. Black</a>, <a href="https://dtzionas.com/">D. Tzionas</a>
+                        <br> <em> IEEE/CVF Computer Vision and Pattern Recognition (CVPR), Nashville, USA 2025 </em> <br>
+                        <br>
+                        <a class="link link_pdf" href="pdfs/CVPR2025PICO.pdf" target="_blank"> [PDF] </a>
+                        <a class="link link_pdf" href="https://openaccess.thecvf.com/content/CVPR2025/papers/Cseke_PICO_Reconstructing_3D_People_In_Contact_with_Objects_CVPR_2025_paper.pdf" target="_blank"> [Publication] </a>
+                        <a class="link link_pdf" href="https://pico.is.tue.mpg.de/" target="_blank"> [Website] </a>
+                        <!-- <a class="link link_pdf" href="https://www.youtube.com/watch?v=KszH8-YJayQ" target="_blank"> [Video] </a> -->
+                        <a class="link bibselect" bibdiv="picobib" href="javascript:void(0)"> [BibTex] </a>
+                        <br>
+                        <br>
+                        <div id="picobib" style="display: none">
+                            <p>
+                                @inproceedings{cseke2025pico,
+                                <br>
+                                title = {{PICO}: Reconstructing {3D} People In Contact with Objects}, 
+                                <br>
+                                author = {Cseke, A. and Tripathi, S. and Dwivedi, S. K. and Lakshmipathy, A. S. and Chatterjee, A. and Black, M. J. and Tzionas, D.},
+                                <br>
+                                booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+                                <br>
+                                year={2025},
+                                <br>
+                                pages={1783-1794}}
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="separator" />
+
+                <tr>
+                    <td class="pubentry-img">
+                        <img src="images/KinematicMotionRetargetingTOG25.jpg" class="border border-dark paperimage"/>
+                    </td>
+                    <td class="pubentry-text">
                         <b>Kinematic Motion Retargeting for Contact-Rich Anthropomorphic Manipulations</b>
                         <br> <strong>A.S. Lakshmipathy</strong>, <a href="https://www.cs.cmu.edu/~jkh/" target="_blank">J.K. Hodgins</a>, <a href="http://graphics.cs.cmu.edu/nsp/index.html" target="_blank">N.S. Pollard</a>
                         <br> <em> ACM Transactions on Graphics (To Be Presented at SIGGRAPH), Vancouver, Canada 2025 </em> <br>
@@ -113,7 +163,7 @@
                         <br>
                         <div id="kmrbib" style="display: none">
                             <p>
-                                @inproceedings{lakshmipathy2025kinematic,
+                                @article{lakshmipathy2025kinematic,
                                 <br>
                                 title={Kinematic Motion Retargeting for Contact-Rich Anthropomorphic Manipulations},
                                 <br>
@@ -135,10 +185,10 @@
                 <tr class="separator" />
 
                 <tr>
-                    <td style="width: 150px; padding: 5px 5px 0px 0px; vertical-align: top; text-align: center;">
-                        <img src="images/ContactMPCRSSWorkshop24.png" class="border border-dark" width="240" height="172" /></a>
+                    <td class="pubentry-img">
+                        <img src="images/ContactMPCRSSWorkshop24.png" class="border border-dark paperimage"/>
                     </td>
-                    <td style="padding: 5px; vertical-align: top; background-color: #ffffff">
+                    <td class="pubentry-text">
                         <b>ContactMPC: Towards Online Adaptive Control for Contact-Rich Dexterous Manipulation</b>
                         <br> <strong>A.S. Lakshmipathy</strong>, <a href="http://graphics.cs.cmu.edu/nsp/index.html" target="_blank">N.S. Pollard</a>
                         <br> <em> Robotics: Science and Systems - Workshop on Dexterous Manipulation: Design, Perception and Control, Delft, Netherlands 2024 </em> <br>
@@ -167,10 +217,10 @@
                 <tr class="separator" />
 
                 <tr>
-                    <td style="width: 150px; padding: 5px 5px 0px 0px; vertical-align: top; text-align: center;">
-                        <img src="images/ContactEditSIGGRAPH23.png" class="border border-dark" width="240" height="172" /></a>
+                    <td class="pubentry-img">
+                        <img src="images/ContactEditSIGGRAPH23.png" class="border border-dark paperimage"/>
                     </td>
-                    <td style="padding: 5px; vertical-align: top; background-color: #ffffff">
+                    <td class="pubentry-text">
                         <b>Contact Edit: Artist Tools for Intuitive Modeling of Hand-Object Interactions</b>
                         <br> <strong>A. S. Lakshmipathy</strong>, <a href="https://nzfeng.github.io/">N. Feng</a>, <a href="https://www.yuxilee.com/">Y. X. Lee</a>, <a href="https://www.momahler.com/">M. Mahler</a>, <a href="http://graphics.cs.cmu.edu/nsp/index.html">N.S. Pollard</a>
                         <br> <em> ACM Transactions on Graphics (Presented at SIGGRAPH), Los Angeles, USA 2023 </em> <br>
@@ -186,19 +236,19 @@
                             <p>
                                 @article{lakshmipathy2023contactedit,
                                 <br>
-                                title = {Contact Edit: Artist Tools for Intuitive Modeling of Hand-Object Interactions},
+                                title={Contact Edit: Artist Tools for Intuitive Modeling of Hand-Object Interactions},
                                 <br>
-                                author = {Lakshmipathy, A. S. and Feng, N. and Lee, Y. X. and Mahler, M. and Pollard, N. S.},
+                                author={Lakshmipathy, A. S. and Feng, N. and Lee, Y. X. and Mahler, M. and Pollard, N. S.},
                                 <br>
-                                journal = {ACM Transactions on Graphics},
+                                journal={ACM Transactions on Graphics},
                                 <br>
-                                year = {2023},
+                                year={2023},
                                 <br>
-                                volume = {42},
+                                volume={42},
                                 <br>
-                                number = {4},
+                                number={4},
                                 <br>
-                                articleno = {45}}
+                                articleno={45}}
                             </p>
                         </div>
                     </td>
@@ -206,10 +256,10 @@
                 <tr class="separator" />
 
                 <tr>
-                    <td style="width: 150px; padding: 5px 5px 0px 0px; vertical-align: top; text-align: center;">
-                        <img src="images/ContactTransferICRA22.png" class="border border-dark" width="240" height="172" /></a>
+                    <td class="pubentry-img">
+                        <img src="images/ContactTransferICRA22.png" class="border border-dark paperimage"/>
                     </td>
-                    <td style="padding: 5px; vertical-align: top; background-color: #ffffff">
+                    <td class="pubentry-text">
                         <b>Contact Transfer: A Direct, User-Driven Method for Human to Robot Transfer of Grasps and Manipulations </b>
                         <br> <strong>A. Lakshmipathy</strong>, D. Bauer, C. Bauer, <a href="http://graphics.cs.cmu.edu/nsp/index.html">N.S. Pollard</a>
                         <br> <em> IEEE International Conference on Robotics and Automation (ICRA), Philadelphia, USA 2022 </em> <br>
@@ -242,10 +292,10 @@
                 <tr class="separator" />
 
                 <tr>
-                    <td style="width: 150px; padding: 5px 5px 0px 0px; vertical-align: top; text-align: center;">
-                        <img src="images/IterativePrototypingROBOSOFT22.png" class="border border-dark" width="240" height="172" /></a>
+                    <td class="pubentry-img">
+                        <img src="images/IterativePrototypingROBOSOFT22.png" class="border border-dark paperimage"/>
                     </td>
-                    <td style="padding: 5px; vertical-align: top; background-color: #ffffff">
+                    <td class="pubentry-text">
                         <b>Towards Very Low-Cost Iterative Prototyping for Fully Printable Dexterous Soft Robotic Hands</b>
                         <br> D. Bauer, C. Bauer, <strong>A. Lakshmipathy</strong>, <a href="https://rshum19.github.io/" target="_blank">R. Shu</a>, <a href="http://graphics.cs.cmu.edu/nsp/index.html" target="_blank">N.S. Pollard</a>
                         <br> <em> IEEE International Conference on Soft Robotics (ROBOSOFT), Edinburgh, UK 2022 </em> <br>
@@ -277,10 +327,10 @@
                 <tr class="separator" />
 
                 <tr>
-                    <td style="width: 150px; padding: 5px 5px 0px 0px; vertical-align: top; text-align: center;">
-                        <img src="images/SoftHandAgricultureAAAIWorkshop22.png" class="border border-dark" width="240" height="172" /></a>
+                    <td class="pubentry-img">
+                        <img src="images/SoftHandAgricultureAAAIWorkshop22.png" class="border border-dark paperimage"/>
                     </td>
-                    <td style="padding: 5px; vertical-align: top; background-color: #ffffff">
+                    <td class="pubentry-text">
                         <b>Fully Printable Low-Cost Dexterous Soft Robotic Manipulators for Agriculture</b>
                         <br> D. Bauer, C. Bauer, <strong>A. Lakshmipathy</strong>, <a href="http://graphics.cs.cmu.edu/nsp/index.html" target="_blank">N.S. Pollard</a>
                         <br> <em> AAAI Conference on Artificial Intelligence - Workshop  on AI for Agriculture and Food Systems, Vancouver, Canada 2022 </em> <br>
@@ -308,10 +358,10 @@
                 <tr class="separator" />
 
                 <tr>
-                    <td style="width: 150px; padding: 5px 5px 0px 0px; vertical-align: top; text-align: center;">
-                        <img src="images/ContactTracingIROS21.png" class="border border-dark" width="240" height="172" /></a>
+                    <td class="pubentry-img">
+                        <img src="images/ContactTracingIROS21.png" class="border border-dark paperimage"/>
                     </td>
-                    <td style="padding: 5px; vertical-align: top; background-color: #ffffff">
+                    <td class="pubentry-text">
                         <b>Contact Tracing: A Low Cost Reconstruction Framework for Surface Contact Interpolation</b>
                         <br> <strong>A. Lakshmipathy</strong>, D. Bauer, <a href="http://graphics.cs.cmu.edu/nsp/index.html" target="_blank">N.S. Pollard</a>
                         <br> <em> IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Prague, Czech Republic 2021 </em> <br>
@@ -343,10 +393,10 @@
                 <tr class="separator" />
 
                 <tr>
-                    <td style="width: 150px; padding: 5px 5px 0px 0px; vertical-align: top; text-align: center;">
-                        <img src="images/LinetICPR21.png" class="border border-dark" width="240" height="172" /></a>
+                    <td class="pubentry-img">
+                        <img src="images/LinetICPR21.png" class="border border-dark paperimage"/>
                     </td>
-                    <td style="padding: 5px; vertical-align: top; background-color: #ffffff">
+                    <td class="pubentry-text">
                         <b>Locally-Connected, Irregular Deep Neural Networks for Biomimetic Active Vision in a Simulated Human</b>
                         <br> <a href="https://masakinakada.com/" target="_blank">M. Nakada</a><sup>*</sup>, <a href="https://web.stanford.edu/~honglinc/" target="_blank">H. Chen</a><sup>*</sup>, <strong>A. Lakshmipathy</strong>, <a href="http://web.cs.ucla.edu/~dt/" target="_blank">D. Terzopoulos</a>
                         <br> <em> IEEE International Conference on Pattern Recognition (ICPR), Milano, Italy 2021 </em> <br>
@@ -376,10 +426,10 @@
                 <tr class="separator" />
 
                 <tr>
-                    <td style="width: 150px; padding: 5px 5px 0px 0px; vertical-align: top; text-align: center;">
-                        <img src="images/BiomimeticHumanoidRAL20.png" class="border border-dark" width="240" height="172" /></a>
+                    <td class="pubentry-img">
+                        <img src="images/BiomimeticHumanoidRAL20.png" class="border border-dark paperimage"/>
                     </td>
-                    <td style="padding: 5px; vertical-align: top; background-color: #ffffff">
+                    <td class="pubentry-text">
                         <b>Deep Learning of Neuromuscular and Visuomotor Control in a Biomimetic Simulated Humanoid</b>
                         <br> <a href="https://masakinakada.com/" target="_blank">M. Nakada</a>, <a href="https://taozhou.wixsite.com/taozhou" target="_blank">T. Zhou</a>,  <a href="https://web.stanford.edu/~honglinc/" target="_blank">H. Chen</a>, <strong>A. Lakshmipathy</strong>, <a href="http://web.cs.ucla.edu/~dt/" target="_blank">D. Terzopoulos</a>
                         <br> <em> IEEE Robotics and Automation Letters (RA-L) 2020 </em> <br>
@@ -413,10 +463,10 @@
                 <tr class="separator" />
 
                 <tr>
-                    <td style="width: 150px; padding: 5px 5px 0px 0px; vertical-align: top; text-align: center;">
-                        <img src="images/BiomimeticEyeModelingSIGGRAPHAsia19.jpeg" class="border border-dark" width="240" height="172" /></a>
+                    <td class="pubentry-img">
+                        <img src="images/BiomimeticEyeModelingSIGGRAPHAsia19.jpeg" class="border border-dark paperimage"/>
                     </td>
-                    <td style="padding: 5px; vertical-align: top; background-color: #ffffff">
+                    <td class="pubentry-text">
                         <b>Biomimetic Eye Modeling & Deep Neuromuscular Oculomotor Control</b>
                         <br> <a href="https://masakinakada.com/" target="_blank">M. Nakada</a><sup>*</sup>, <strong>A. Lakshmipathy<sup>*</sup></strong>,  <a href="https://web.stanford.edu/~honglinc/" target="_blank">H. Chen</a>, X. Ling, <a href="https://taozhou.wixsite.com/taozhou" target="_blank">T. Zhou</a>, <a href="http://web.cs.ucla.edu/~dt/" target="_blank">D. Terzopoulos</a>
                         <br> <em> ACM Transactions on Graphics (Presented at SIGGRAPH Asia), Brisbane, Australia 2019 </em> <br>
@@ -451,10 +501,10 @@
                 <tr class="separator" />
 
                 <tr>
-                    <td style="width: 150px; padding: 5px 5px 0px 0px; vertical-align: top; text-align: center;">
-                        <img src="images/UCLAMSThesisEye.png" class="border border-dark" width="240" height="172" /></a>
+                    <td class="pubentry-img">
+                        <img src="images/UCLAMSThesisEye.png" class="border border-dark paperimage"/>
                     </td>
-                    <td style="padding: 5px; vertical-align: top; background-color: #ffffff">
+                    <td class="pubentry-text">
                         <b>Biomimetic Modeling of the Eye and Deep Neuromuscular Oculomotor Control</b>
                         <br> <strong>A. Lakshmipathy</strong>
                         <br> <em> M.S. Thesis, Computer Science Department, Univeristy of California, Los Angeles 2018 </em> <br>
@@ -488,7 +538,7 @@
 
         <br>
         <br>
-        <div>Last Updated: 04/04/2025</div>
+        <div>Last Updated: 06/05/2025</div>
 
     </div>
 
